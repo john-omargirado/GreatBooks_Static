@@ -1,4 +1,5 @@
 import ParallaxSection from '../components/ParallaxSection';
+import ImmortalLineCard from '../components/ImmortalLineCard';
 
 export default function Home() {
     return (
@@ -416,41 +417,32 @@ export default function Home() {
                     <div className="mt-20">
                         <h3 className="text-3xl font-bold mb-10 text-center text-amber-300">Immortal Lines</h3>
                         <div className="space-y-6 max-w-4xl mx-auto">
-                            <div className="group relative bg-gradient-to-r from-gray-900/60 to-gray-800/60 p-8 rounded-xl border border-amber-800/30 hover:border-amber-600/50 transition-all duration-300 overflow-hidden">
-                                <div className="absolute top-0 left-0 w-2 h-full bg-gradient-to-b from-amber-500 to-orange-500 transform scale-y-0 group-hover:scale-y-100 transition-transform duration-500 origin-top"></div>
-                                <div className="absolute top-4 left-4 text-6xl text-amber-900/20 font-serif">"</div>
-                                <p className="text-gray-200 font-serif italic text-lg mb-4 pl-8 relative z-10 group-hover:text-gray-100 transition-colors">
-                                    "Be strong, saith my heart; I am a soldier; I have seen worse sights than this."
-                                </p>
-                                <div className="flex items-center gap-2 pl-8">
-                                    <span className="text-amber-500 text-sm">—</span>
-                                    <p className="text-amber-400/80 text-sm font-semibold">Odysseus</p>
-                                </div>
-                            </div>
+                            <ImmortalLineCard
+                                imageSrc={'/images/Oddyseus.png'}
+                                alt={'Odysseus'}
+                                speaker={'Odysseus'}
+                                line={'Be strong, saith my heart; I am a soldier; I have seen worse sights than this.'}
+                                soundSrc={'/sounds/Odysseus.mp3'}
+                                design={'Voice: Weathered • Design: Stoic portrait'}
+                            />
 
-                            <div className="group relative bg-gradient-to-r from-gray-900/60 to-gray-800/60 p-8 rounded-xl border border-amber-800/30 hover:border-amber-600/50 transition-all duration-300 overflow-hidden">
-                                <div className="absolute top-0 left-0 w-2 h-full bg-gradient-to-b from-red-500 to-orange-500 transform scale-y-0 group-hover:scale-y-100 transition-transform duration-500 origin-top"></div>
-                                <div className="absolute top-4 left-4 text-6xl text-amber-900/20 font-serif">"</div>
-                                <p className="text-gray-200 font-serif italic text-lg mb-4 pl-8 relative z-10 group-hover:text-gray-100 transition-colors">
-                                    "Even in the house of Hades the men below win glory."
-                                </p>
-                                <div className="flex items-center gap-2 pl-8">
-                                    <span className="text-red-500 text-sm">—</span>
-                                    <p className="text-red-400/80 text-sm font-semibold">Achilles</p>
-                                </div>
-                            </div>
+                            <ImmortalLineCard
+                                imageSrc={'/images/achilles.png'}
+                                alt={'Achilles'}
+                                speaker={'Achilles'}
+                                line={'For my mother Thetis, goddess of the silver feet, tells me I am fated to die here, far from my father and my friends, yet I shall have undying glory.'}
+                                soundSrc={'/sounds/Achillies.mp3'}
+                                design={'Voice: Resolute • Design: Heroic close-up'}
+                            />
 
-                            <div className="group relative bg-gradient-to-r from-gray-900/60 to-gray-800/60 p-8 rounded-xl border border-amber-800/30 hover:border-amber-600/50 transition-all duration-300 overflow-hidden">
-                                <div className="absolute top-0 left-0 w-2 h-full bg-gradient-to-b from-amber-500 to-yellow-500 transform scale-y-0 group-hover:scale-y-100 transition-transform duration-500 origin-top"></div>
-                                <div className="absolute top-4 left-4 text-6xl text-amber-900/20 font-serif">"</div>
-                                <p className="text-gray-200 font-serif italic text-lg mb-4 pl-8 relative z-10 group-hover:text-gray-100 transition-colors">
-                                    "There is no creature among all the Beasts of the world which is so fair and dear to the gods as man."
-                                </p>
-                                <div className="flex items-center gap-2 pl-8">
-                                    <span className="text-amber-500 text-sm">—</span>
-                                    <p className="text-amber-400/80 text-sm font-semibold">Homer</p>
-                                </div>
-                            </div>
+                            <ImmortalLineCard
+                                imageSrc={'/images/Homer.png'}
+                                alt={'Homer'}
+                                speaker={'Homer'}
+                                line={'Sing, O Muse, of the rage of Achilles, son of Peleus, that brought countless ills upon the Achaeans.'}
+                                soundSrc={'/sounds/Homer.mp3'}
+                                design={'Voice: Epic narrator • Design: Ancient poet portrait'}
+                            />
                         </div>
                     </div>
                 </div>
