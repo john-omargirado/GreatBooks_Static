@@ -467,7 +467,7 @@ export default function Home() {
                     </p>
                     <p className="text-gray-600 text-sm mb-4">— Homer, The Iliad</p>
                     <p className="text-gray-500 text-sm">
-                        &copy; 2025 The Iliad Showcase. Built with Next.js & GSAP ScrollTrigger.
+                        &copy; 2025 The Iliad Showcase | Girado, Lising, San Jose, Vademoro | BSCS 4C
                     </p>
                 </div>
             </footer>
