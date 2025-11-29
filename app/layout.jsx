@@ -7,7 +7,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-    title: "Parallax Scrolling with GSAP",
+    title: "Illiad by Homer | BSCS 4C",
     description: "A beautiful parallax scrolling effect using Next.js and GSAP ScrollTrigger",
 };
 
